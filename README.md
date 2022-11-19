@@ -10,6 +10,7 @@ public class Grid {
   private final static String wordleString = "Wordle";
   
   public int getRows() { return numRows; }
+  
 }
 ```
 
@@ -18,6 +19,7 @@ public class Grid {
 public class Grid {
   
   public int getRows() { return 6; }
+  
 }
 ```
 
