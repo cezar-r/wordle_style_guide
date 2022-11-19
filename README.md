@@ -80,4 +80,13 @@ if (y<x) {}
 public int get() {return x;}
 ```
 
-
+### Spacing (cont.)
+Keep one line of whitespace between every method in a function.
+Avoid having whitespace inside functions as much as possible
+         
+```java
+         
+ public class Player {
+   
+``` 
+   
