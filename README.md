@@ -85,16 +85,18 @@ Keep one line of whitespace between every method in a function.
 Avoid having whitespace inside functions as much as possible.
 Keep one line of whitespace between the top/bottom functions and the class brackets.
          
-```java
-         
+```java        
  public class Player {
    
+   // function comment
    public int getGuesses() {}
          
+   // function comment      
    public int makeMove() {
       ...
    }
-         
+       
+   // function comment      
    private static void isPlaying() {}
 
 }
