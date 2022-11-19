@@ -95,7 +95,7 @@ Keep one line of whitespace between the top/bottom functions and the class brack
       ...
    }
          
-   private static void isPlaying() {}
+  private static void isPlaying() {}
 
 }
 ``` 
