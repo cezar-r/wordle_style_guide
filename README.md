@@ -87,6 +87,10 @@ Keep one line of whitespace between the top/bottom functions and the class brack
          
 ```java        
  public class Player {
+         
+   private final static int numGuesses = 6;
+         
+   public Player() {}
    
    // function comment
    public int getGuesses() {}
