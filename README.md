@@ -40,7 +40,7 @@ public static void main(String[] args) { // Method opening bracked is on same li
 ```
 
 ### Static methods
-All private/helper methods should be static and all public methods should be non-static. Avoid using this.<variable> as much as possible.
+All private/helper methods should be static and all public methods should be non-static. Avoid using this.{variable} as much as possible.
 
 ```java
 public class Game {
