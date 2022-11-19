@@ -35,3 +35,49 @@ public static void main(String[] args) { // Method opening bracked is on same li
   }
 }
 ```
+
+### Static methods
+All private/helper methods should be static and all public methods should be non-static
+
+```java
+public class Game {
+  
+  private final static int numRows = 6;
+  
+  // public non-static method
+  public List<String> evaluateGuesses() {
+    List<String> guesses = new List<String>();
+    for (int i = 0; i < numRows; i++) {
+        guesses.add(evaluateGuess(i);
+    }
+    return guesses;
+  }
+  
+  // private static method
+  private static String evaluateGuess(int i) {
+    ...
+  }
+  
+}
+```
+
+### Spacing
+Keep spacing between mathematical operations, for loops, and comparisons
+
+```java
+// Good example
+int x = 5;
+int x += 1;
+if (y < x) {}
+public int get() { return x; }
+```
+
+```java
+// Bad example
+int x=5;
+int x+=1;
+if (y<x) {}
+public int get() {return x;}
+```
+
+
