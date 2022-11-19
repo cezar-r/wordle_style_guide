@@ -62,7 +62,7 @@ public class Game {
 ```
 
 ### Spacing
-Keep spacing between mathematical operations, for loops, and comparisons
+Keep spacing between mathematical operations, for loops, declarations, and comparisons
 
 ```java
 // Good example
