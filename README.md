@@ -82,11 +82,21 @@ public int get() {return x;}
 
 ### Spacing (cont.)
 Keep one line of whitespace between every method in a function.
-Avoid having whitespace inside functions as much as possible
+Avoid having whitespace inside functions as much as possible.
+Keep one line of whitespace between the top/bottom functions and the class brackets.
          
 ```java
          
  public class Player {
    
+   public int getGuesses() {}
+         
+   public int makeMove() {
+      ...
+   }
+         
+   private static void isPlaying() {}
+
+}
 ``` 
    
