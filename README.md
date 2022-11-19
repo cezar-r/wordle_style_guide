@@ -106,3 +106,21 @@ Keep one line of whitespace between the top/bottom functions and the class brack
 }
 ``` 
    
+### Class initializers/setters
+Since we are trying to avoid the use of this.<varaible>, class initializers should be set up like this
+  
+```java
+public class Dog {
+  
+  private static String name;
+  private static String breed;
+  
+  public Dog(String newName, String newBreed) {
+    name = newName;
+    breed = newBreed;
+  }
+  
+  public void setName(String newName) { name = newName; }
+ 
+}
+```
