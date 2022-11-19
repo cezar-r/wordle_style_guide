@@ -110,7 +110,7 @@ Keep one line of whitespace between the top/bottom functions and the class brack
 ``` 
    
 ### Class initializers/setters
-Since we are trying to avoid the use of this.<varaible>, class initializers should be set up like this
+Since we are trying to avoid the use of this.{varaible}, class initializers should be set up like this
   
 ```java
 public class Dog {
