@@ -6,6 +6,7 @@ Constants should be defined at the top of the class. There should be no arbitrar
 ```java
 // Good example
 public class Grid {
+
   private final static int numRows = 6;
   private final static String wordleString = "Wordle";
   
